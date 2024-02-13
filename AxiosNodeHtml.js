@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 
 // Base URL for the API
 //const base_url = "https://api.example.com";
-const base_url = "http://localhost:3000";
+const base_url = "http://node57397-suchaphut.proen.app.ruk-com.cloud:11635/books";
 // Set the template engine
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
